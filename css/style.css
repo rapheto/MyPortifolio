@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div{
     display: block;
 }
@@ -10,4 +14,8 @@ div{
 .links{
     font-size: 20px;
     
+}
+.quadrado{
+    border: 2px solid red;
+    background-color: aqua;
 }
