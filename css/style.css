@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+p{
+    text-align: justify;
+}
 :root{
     --color-1: #b9030f;
     --color-2: #9e0004 ;
@@ -49,8 +52,8 @@ a{
     margin-right: 5%;
 }
 .intro {
-    padding: 120px 100px;
-    height: 100vh;
+    padding: 120px 5% 0px 5%;
+    height: 91vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -66,17 +69,24 @@ a{
 }
 
 .intro-image{
-    width: 300px;
+    width: 350px;
     border-radius: 100%;
 }
 .intro-text{
-    width: 50%;
+    width: 91%;
     position: relative;
-    font-size: 20px;
+    font-size: 40px;
+    text-align: justify;
 }
-.intro-img-txt{
+.intro-img-txt-1{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+}
+.conteudo{
+    padding: 0px 20% 0px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
