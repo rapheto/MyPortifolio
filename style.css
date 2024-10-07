@@ -100,14 +100,34 @@ p{
     text-decoration: underline;
     cursor: pointer;
 }
+.titulo-projeto{
+    padding: 80px 0% 80px 0%;
+    display: flex;
+    justify-content: center;
+}
+.projeto-um{
+    padding: 80px 20% 80px 20%;
+    display: flex;
+    flex-direction: column;
+}
 .conteudo-dois{
-    padding: 100px 25% 120px 25%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     
 }
 .img-project{
-    width: 300px;
+    width: 280px;
 }
+.projeto-text{
+    font-size: 18px;
+    text-align: justify;
+    padding: 0px 8% 0px 0%;
+    text-indent: 50px;
+}
+.conteudo-dois-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
